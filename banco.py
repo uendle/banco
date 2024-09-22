@@ -8,7 +8,7 @@ Selecione uma das opções a baixo :
 
 saldo = 0.0
 limite = 500
-extrato= "================EXTRATO===================\n"
+extrato= "================EXTRATO===================\n" 
 numero_saque= 0
 LIMITE_SAQUE = 3
 movimentacao= 0
@@ -67,7 +67,7 @@ while True:
     elif opcao == 'S':
         sacar()
     elif opcao == 'E':
-        print(extrato)
+        print("================EXTRATO===================\nNão forma realizadas movimentaçãos.\n\n\n" if (extrato == "================EXTRATO===================\n") else extrato)
     elif opcao == 'Q':
         break
     else :
