@@ -2,7 +2,7 @@
 menu= """Bem vindo ao Sistema Bancario!
 Selecione uma das opções a baixo :
 
-[D]Deposito ,[S]Saque ,[E]Extrato ,[Q]Sair
+[D]Deposito ,[S]Saque ,[E]Extrato ,[CU]Cadastrar Usuario ,[CC]Criar Conta[Q]Sair
 
 ==>"""
 
