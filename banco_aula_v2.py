@@ -86,7 +86,7 @@ def criar_conta(agencia,numero_conta,usuarios):
 
         return {"agencia":agencia, "numero_conta":numero_conta, "usuario":usuario}
     
-    print*("\n@@@ Usuario não encontrado, fluxo de ciração de conta encerrado! @@@")
+    print("\n@@@ Usuario não encontrado, fluxo de ciração de conta encerrado! @@@")
 
 def listar_contas(contas):
     for conta in contas:
@@ -142,7 +142,6 @@ def main():
             if conta:
                 contas.append(conta)
         elif opcao == 'LC':
-            print(contas)
             listar_contas(contas)
 
 
