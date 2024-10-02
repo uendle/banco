@@ -143,6 +143,12 @@ def main():
                 contas.append(conta)
         elif opcao == 'LC':
             listar_contas(contas)
+            
+        elif opção ==' Q':  
+            break
+
+        else:
+            input("Opção invalida!")
 
 
 main()
